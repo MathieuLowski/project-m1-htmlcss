@@ -2,14 +2,277 @@
 <html>
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      href="https://fonts.googleapis.com/css?family=Poppins"
-      rel="stylesheet"
-    />
+  
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+
     <link href="css/styles.css" rel="stylesheet" />
   </head>
-
   <body>
-    <!-- write some HTML! -->
-  </body>
+    <header>
+        <nav class="navbar">
+            <a href="#"><img class="logo" src="imgs/logo.svg" alt="infinity logo"></a>
+            <a href="#features">Features</a>
+            <a href="#advantages">Advantages</a>
+            <a href="#gallery">Gallery</a>
+            <div class="dropdown">
+
+                <a href="#" class="dropdown-laber">Products</a>
+                <ul class="dropdown-content">
+                    <li class="dropdown-content--item">Falcon</li>
+                    <li class="dropdown-content--item"> Model S</li>
+                    <li class="dropdown-content--item"> Iphone</li>
+                </ul>
+
+            </div>
+
+        </nav>
+    </header>
+    <div class="backGround">
+        <div class="container">
+            <h1>Introducing <br>Falcon 9</h1>
+            <div class="subCont">
+                <h2>We make dreams come true</h2>
+                <div class="smallCont">
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe delectus in quas quisquam eos
+                        soluta corporis repellat distinctio tenetur placeat. Corrupti ducimus pariatur magni!
+                    </p>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe delectus in quas quisquam eos
+                        soluta corporis repellat distinctio tenetur placeat. Corrupti ducimus pariatur magni!
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <aside class="subInfo">
+
+        <div class="features" id="features">
+            <img src="imgs/icon1.svg">
+            <h3>Amazing feature 1</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae
+                mollitia sint deserunt aperiam ea vitae tempore doloremque placeat iure, tempora
+                eius vel, obcaecati autem, error reprehenderit inventore quia maiores?
+            </p>
+            <button class="transaction">Get it</button>
+        </div>
+        <div class="features">
+            <img src="imgs/icon2.svg">
+            <h3>Amazing feature 2</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae
+                mollitia sint deserunt aperiam ea vitae tempore doloremque placeat iure, tempora
+                eius vel, obcaecati autem, error reprehenderit inventore quia maiores?
+            </p>
+            <button class="transaction">Sell it</button>
+        </div>
+        <div class="features">
+            <img src="imgs/icon3.svg">
+            <h3>Amazing feature 3</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae
+                mollitia sint deserunt aperiam ea vitae tempore doloremque placeat iure, tempora
+                eius vel, obcaecati autem, error reprehenderit inventore quia maiores?
+            </p>
+            <button class="transaction">Do it</button>
+        </div>
+    </aside>
+
+    <div class="blackBox" id="advantages">
+        <h2>Some cool text</h2>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nihil harum minima maiores animi
+            repudiandae. Nulla, fuga distinctio? Sint odio, nobis tempora libero unde officia.
+        </p>
+    </div>
+    <div class="blueBox" id="b">
+        <h2>Slick gradient</h2>
+        <p>Lorem ipsum?</p>
+    </div>
+    <div class="picBox" id="gallery">
+        <p class="item1"><span>Tesla</span></p>
+        <p class="item2"><span>Cool Cat</span></p>
+        <p class="item3"><span>Introducing: The hyperloop</span></p>
+        <p class="item4"><span>So sneakay</span></p>
+        <p class="item5"><span>BFR-Big Falcon Rocket</span></p>
+        <p class="item6"><span>So much Fun</span></p>
+    </div>
+
+    <form id="catForm">
+        <p>Register to our mailing list:</p>
+        <div class="send">
+            <input class="mail" type="text" id="mail" name="mail">
+            <button type="submit" form="catForm" value="Submit"><img src="imgs/send.svg"></button><br>
+        </div>
+        <div class="check">
+            <input class="checkBox" type="checkbox" id="catPic" name="catPic" value="true">
+            <p>Send me daily cat images</p>
+        </div>
+    </form>
+
+    <footer>
+        <div class="smallPrint">
+            <a href="#">About us</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Legal notes</a>
+            <a href="#">Copyright</a>
+        </div>
+        <div class="smallPrint">
+            <a href="#">About us</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Legal notes</a>
+            <a href="#">Copyright</a>
+        </div>
+        <div class="smallPrint">
+            <a href="#">About us</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Legal notes</a>
+            <a href="#">Copyright</a>
+        </div>
+        <div class="smallPrint">
+            <a href="#">About us</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Legal notes</a>
+            <a href="#">Copyright</a>
+        </div>
+    </footer>
+
+
+</body>
+  
 </html>
+<!--<body>
+    <header>
+      <nav class="navbar">
+        <a href="#"><img class="logo" src="imgs/logo.svg" alt="infinity logo"></a>
+        <a href="#features">Features</a>
+        <a href="#advantages">Advantages</a>
+        <a href="#gallery">Gallery</a>
+        <div class="dropdown">
+
+          <a href="#" class="dropdown-laber">Products</a>
+          <ul class="dropdown-content">
+              <li class="dropdown-content--item">Falcon</li>
+              <li class="dropdown-content--item"> Model S</li>
+              <li class="dropdown-content--item"> Iphone</li>
+          </ul>
+
+      </div>
+
+      </nav>
+    </header>
+      <div class="backImg">
+        <div class="container">
+          <h1>Introducing <br>Falcon 9</h1>
+          <div class="subCont">
+              <h2>We make dreams come true</h2>
+              <div class="smallCont">
+                  <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe delectus in quas quisquam eos
+                      soluta corporis repellat distinctio tenetur placeat. Corrupti ducimus pariatur magni!
+                  </p>
+                  <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe delectus in quas quisquam eos
+                      soluta corporis repellat distinctio tenetur placeat. Corrupti ducimus pariatur magni!
+                  </p>
+              </div>
+          </div>
+        </div>
+      </div>
+
+
+    <aside class="subInfo">
+    
+      <div class="features" id="features">
+        <img src="imgs/icon1.svg">
+        <h3>Amazing feature 1</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae
+          mollitia sint deserunt aperiam ea vitae tempore doloremque placeat iure, tempora 
+          eius vel, obcaecati autem, error reprehenderit inventore quia maiores?
+        </p>
+        <button class="transaction">Get it</button>
+      </div>
+      <div class="features">
+        <img src="imgs/icon2.svg">
+        <h3>Amazing feature 2</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae
+          mollitia sint deserunt aperiam ea vitae tempore doloremque placeat iure, tempora 
+          eius vel, obcaecati autem, error reprehenderit inventore quia maiores?
+        </p>
+        <button class="transaction">Sell it</button>
+      </div>
+      <div class="features">
+        <img src="imgs/icon3.svg">
+        <h3>Amazing feature 3</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae
+          mollitia sint deserunt aperiam ea vitae tempore doloremque placeat iure, tempora 
+          eius vel, obcaecati autem, error reprehenderit inventore quia maiores?
+        </p>
+        <button class="transaction">Do it</button>
+      </div>
+    </aside>
+  
+                  <!--Second half of the page starts here-->
+<!--
+ <div class="halfTwo">
+    <div class="secContent" id="advantages">
+     <div class="coolText" id="a">
+     <h2>Some cool text</h2>
+      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nihil harum minima maiores animi
+        repudiandae. Nulla, fuga distinctio? Sint odio, nobis tempora libero unde officia.
+      </p>
+    </div>
+      
+      <div class="coolText" id="b">
+        <h2>Slick gradient</h2>
+        <p>Lorem ipsum?</p>
+    </div>
+
+  </div>
+
+  <div class="picBox">
+    <p class="item1"><span>Tesla</span></p>
+    <p class="item2"><span>Cool Cat</span></p>
+    <p class="item3"><span>Introducing: The hyperloop</span></p>
+    <p class="item4"><span>So sneakay</span></p>
+    <p class="item5"><span>BFR-Big Falcon Rocket</span></p>
+    <p class="item6"><span>So much Fun</span></p>
+</div>
+
+
+  <form id="catForm">
+      <p>Register to our mailing list:</p>
+      <div class="send">
+      <input class="mail" type="text" id="mail" name="mail">
+      <button type="submit" form="catForm" value="Submit"><img src="imgs/send.svg"></button><br>
+    </div>
+    <div class="check">
+      <input class="checkBox" type="checkbox" id="catPic" name="catPic" value="true">
+      <p>Send me daily cat images</p>
+    </div>
+  </form>
+
+
+  <footer>
+      <div class="smallPrint">
+        <a href="#">About us</a>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Legal notes</a>
+        <a href="#">Copyright</a>
+      </div>
+      <div class="smallPrint">
+        <a href="#">About us</a>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Legal notes</a>
+        <a href="#">Copyright</a>
+      </div>
+      <div class="smallPrint">
+        <a href="#">About us</a>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Legal notes</a>
+        <a href="#">Copyright</a>
+      </div>
+      <div class="smallPrint">
+        <a href="#">About us</a>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Legal notes</a>
+        <a href="#">Copyright</a>
+      </div>
+  </footer>
+
+  
+  
+  </body>  -->
